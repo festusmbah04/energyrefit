@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Retrofit Marketplace MVP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .hero {
+            background: #007bff;
+            color: white;
+            padding: 100px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Energy Retrofit Marketplace</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">How It Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Login/Signup</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero text-center">
+    <h1>Transform Your Property’s Energy Efficiency Today!</h1>
+    <a href="login.html" class="btn btn-light btn-lg">Get Started</a>
+    <a href="tell.html" class="btn btn-outline-light btn-lg">Find Service Providers</a>
+</div>
+
+
+
+<div class="container text-center my-5">
+    <h2>How It Works</h2>
+    <div class="row">
+        <!-- Step 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-search fa-3x"></i> <!-- FontAwesome Icon -->
+                    <h5 class="card-title">Find Services</h5>
+                    <p class="card-text">
+                        Browse our extensive directory of service providers. Use filters to find the perfect fit for your retrofit needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-comments fa-3x"></i> <!-- FontAwesome Icon -->
+                    <h5 class="card-title">Get Quotes</h5>
+                    <p class="card-text">
+                        Submit your project request and receive competitive quotes from top-rated service providers in your area.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-cogs fa-3x"></i> <!-- FontAwesome Icon -->
+                    <h5 class="card-title">Manage Your Project</h5>
+                    <p class="card-text">
+                        Track project progress, communicate with your service provider, and manage payments all in one place.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Service Categories -->
+<div class="container text-center my-5">
+    <h2>Our Services</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Solar Installations</h5>
+                    <p class="card-text">Reduce your energy bills with solar power.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">LED Lighting</h5>
+                    <p class="card-text">Upgrade to energy-efficient lighting.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Insulation</h5>
+                    <p class="card-text">Keep your home comfortable and reduce energy costs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">HVAC Systems</h5>
+                    <p class="card-text">Optimize your heating and cooling efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <h2>Contact Us</h2>
+
+    <!-- Contact Form -->
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number (optional)</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+
+    <hr class="my-4">
+
+    <!-- Provider Contact Information -->
+    <h3>Contact Service Providers</h3>
+    <div class="provider-contact-info">
+        <h5>Green Energy Solutions</h5>
+        <p><strong>Phone:</strong> +234 123 456 7890</p>
+        <p><strong>Email:</strong> info@greenenergysolutions.com</p>
+        <p><strong>Address:</strong> 123 Solar St, Lagos, Nigeria</p>
+    </div>
+    
+    <div class="provider-contact-info mt-4">
+        <h5>Eco-Friendly HVAC</h5>
+        <p><strong>Phone:</strong> +234 098 765 4321</p>
+        <p><strong>Email:</strong> contact@ecofriendlyhvac.com</p>
+        <p><strong>Address:</strong> 456 Green Ave, Abuja, Nigeria</p>
+    </div>
+    
+    <hr class="my-4">
+
+    <!-- FAQs Section -->
+    <h3>Frequently Asked Questions</h3>
+    <div class="accordion" id="faqAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How do I choose a service provider?
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                <div class="card-body">
+                    Consider their ratings, reviews, and past projects. Contact multiple providers for quotes to compare services.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        What types of retrofits do you offer?
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                <div class="card-body">
+                    We offer a variety of retrofits including solar panel installations, HVAC upgrades, insulation, and LED lighting.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-light text-center py-4">
+    <p>&copy; 2024 Energy Retrofit Marketplace</p>
+    <a href="#">About Us</a> | <a href="#">FAQs</a> | <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
